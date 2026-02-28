@@ -30,4 +30,23 @@ public class UserController {
 
 
      }
+
+
+      @setMapping("/updateUsers")
+     public String updateUsers() {
+          return "List of users";
+
+
+
+     }
+
+
+
+
+
+
+
+
+
+
 }
