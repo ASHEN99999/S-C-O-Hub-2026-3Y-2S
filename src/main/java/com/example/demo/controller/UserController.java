@@ -19,4 +19,15 @@ public class UserController {
 
 
      }
+
+
+
+
+      @postMapping("/createUsers")
+     public String createUsers() {
+          return "List of users";
+
+
+
+     }
 }
